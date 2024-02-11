@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+  height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.heading{
+    font-size: 2rem;
+    margin: 15px;
+    border: 5px dashed rgb(96, 96, 222);
+    border-radius: 20px;
+    padding: 5px 20px;
+
+}
+.cards{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+     flex-wrap: wrap;
+    max-width: 1300px;
+     margin: 0 auto;
+}
+.card{
+    width: 400px;
+    height: max-content;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.img{
+      width: 380px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+}
+
+.red-btn{
+   background-color: rgb(215, 118, 118);
+   color: white;
+   margin: 10px 3px 10px 3px;
+   padding: 10px 140px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   
+}
+.readmore-btn{
+    cursor: pointer;
+    color: rgb(77, 77, 222);
+}
+.desc{
+    font-size: 20px;
+}
+
+.refresh{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+.btn-white{
+    background-color: white;
+    color: black;
+    padding: 8px 100px 8px 100px ;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 2px solid black;
+    font-size: x-large;
+}
+.price{
+    color: rgb(51, 156, 51);
+    align-content: start;
+
+}
+.name{
+    font-size: 1.5rem;
+    color: rgb(255, 30, 0);
+}
